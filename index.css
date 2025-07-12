@@ -1,0 +1,126 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: lab(62.12% -2.3 -49.11 / 0.942);
+  color: #1e1616;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #0077b6;
+  color: lch(7.68% 6.11 220.86);
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: hsl(193, 94%, 37%);
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+  background: url('hero.jpg') no-repeat center center/cover;
+  color: lch(87.1% 78.23 100.77);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  background: #ffb703;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero .btn:hover {
+  background: #1a1917;
+}
+
+/* Booking form */
+#booking-form {
+  background-color: lab(71.93% -29.12 41.84);
+  padding: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(22, 17, 17, 0.1);
+}
+
+#booking-form h2 {
+  margin-bottom: 20px;
+  color: #212128;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid hsla(0, 100%, 50%, 0.571);
+}
+
+form button {
+  background-color: #4fa6d8;
+  color: #90e017;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0f1111;
+}
+
+#form-message {
+  margin-top: 10px;
+  color: rgb(37, 146, 37);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: oklab(34.297% -0.01877 -0.00552);
+  color: #1bc6dd;
+  margin-top: 40px;
+}
